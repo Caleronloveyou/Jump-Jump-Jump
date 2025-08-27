@@ -653,7 +653,7 @@ position = Vector2(57, 48)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, -8)
-zoom = Vector2(4, 4)
+zoom = Vector2(6, 6)
 limit_bottom = 128
 limit_smoothed = true
 position_smoothing_enabled = true
@@ -662,7 +662,7 @@ position_smoothing_enabled = true
 position = Vector2(57, 40)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
-position = Vector2(31, 80)
+position = Vector2(31, 72)
 shape = SubResource("WorldBoundaryShape2D_p57ef")
 
 [node name="Coins" type="Node" parent="."]
